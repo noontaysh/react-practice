@@ -1,0 +1,49 @@
+.dialogs {
+    display: grid;
+
+    grid-template-columns: 4fr 12fr;
+    background-color: rgb(12, 123, 151);
+
+    padding: 1rem 0 1rem 3rem;
+}
+
+.dialogsItems {
+    border-right: 1px solid #000;
+
+    width: 200px;
+}
+
+.dialog {
+    font-size: 1.3rem;
+    font-weight: 500;
+    
+    display: flex;
+    align-items: center;
+}
+
+.dialog:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+.dialog img {
+    width: 70px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.dialog a {
+    text-decoration: none;
+    color: rgb(211, 208, 208);
+}
+
+.messages {
+    padding: 1rem;
+}
+
+.message {
+    margin-bottom: .8rem;
+
+    font-size: 1.1rem;
+    color: rgb(24, 15, 15);
+    font-weight: 500;
+}

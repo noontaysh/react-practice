@@ -1,0 +1,13 @@
+.header {
+    grid-area: h;
+
+    background-color: darkblue;
+
+}
+
+.header img {
+    width: 50px;
+    border-radius: 50%;
+
+    padding: .3rem 0 0 1rem;
+}

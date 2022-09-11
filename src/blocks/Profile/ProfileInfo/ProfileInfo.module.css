@@ -1,0 +1,12 @@
+.content__header img {
+    border-bottom: 10px solid rgb(0, 29, 37);
+}
+
+.content__author {
+    padding: 1rem;
+}
+
+.content__author img {
+    width: 200px;
+    border-radius: 30%;
+}
